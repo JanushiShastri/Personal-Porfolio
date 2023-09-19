@@ -1,11 +1,11 @@
 {
 	"name": "reactfolio",
 	"version": "1.1.0",
+	"homepage": "https://janushishastri.github.io/Personal-Porfolio/",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Janushi Shastri",
+		"email": "shastrijanushi@gmail.com"
 	},
 	"license": "MIT",
 	"private": true,
@@ -28,6 +28,8 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
@@ -54,5 +56,8 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
+	},
+	"devDependencies": {
+		"gh-pages": "^6.0.0"
 	}
 }

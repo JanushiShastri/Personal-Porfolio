@@ -3,7 +3,7 @@ const INFO = {
 		title: "My Journey",
 		name: "Janushi Shastri.",
 		email: "mail@Janushi.Shastri@colorado.edu",
-		logo: "../logo.png",
+		logo: "logo.png",
 	},
 
 	socials: {
